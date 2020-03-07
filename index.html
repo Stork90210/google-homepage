@@ -6,17 +6,29 @@
     </head>
     
     <body>
-       <header></header>
+       <header>
+           <a class="top-items"href="">Gmail</a>
+           <a class="top-items"href="">Images</a>
+           <div class="top-items" id="squares"></div>
+           <img class="top-items" id="avatar" src="https://lh3.googleusercontent.com/-Dpk9T0gafKI/AAAAAAAAAAI/AAAAAAAAAAA/AKF05nB1e5kFb1A69BtDXqHxRkkn6iOV7A.CMID/s32-c/photo.jpg" alt="Personal avatar">
+
+
+       </header>
         <main>
             <div class="logobox">
                 <img id="logo" src="https:www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
             </div>
             <form id="formbox">
-                <div id="searchbar"><input type="text" id="searchtext" name="searchtext" required></div>
-                <input type="button" class="google-button" value="Google Search">
-                <input type="button" class="google-button" value="I'm Feeling Lucky">
+                <div id="searchbar">
+                    <img id = "magglass" src="http://getdrawings.com/free-icon-bw/google-search-magnifying-glass-icon-9.png" alt="Magnifying glass icon">
+                    <input type="text" id="searchtext" name="searchtext" required>
+                </div>
+                <div id="button-container">
+                    <input class="button" type="button" class="google-button" value="Google Search">
+                    <input class="button" type="button" class="google-button" value="I'm Feeling Lucky">
+                </div>
             </form>
-            <p>Google offered in: <a href="">Nederlands</a>  <a href="">I'm Feeling Lucky</a></p>
+            <p id=language-select>Google offered in: <a href="">Nederlands</a>  <a href="">Frysk</a></p>
        </main> 
     </body>
 </html>

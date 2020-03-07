@@ -29,12 +29,107 @@ body{
     box-shadow: none;
     border: 1px solid #dfe1e5;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     border-radius: 24px;
     z-index 3;
     margin:0 auto;
+    
 }
 #searchbar:hover{
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
+}
+#searchtext{
+    background-color: transparent;
+    border: 0;
+    width: 435px;
+    margin-right: 10px;
+}
+#magglass {
+    height: 25px;
+    width: 25px;
+}
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:25px;
+
+}
+
+.button {
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    }
+    
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    }
+#language-select {
+    text-align: center;
+    font-size: small;
+    color: #222;
+    font-family: arial, sans-serif;
+    margin-top: 20px;
+}
+a {
+    text-decoration: none;
+    color: #1a0dab;
+    padding: 0 3px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#squares {
+    display: inline-block; 
+    height: 23px;
+    width: 23px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -135px -42px;
+    opacity: .55;
+}
+#squares:hover {
+    opacity: 1;
+}
+#avatar {
+    border-radius: 50%;
+
+}
+header {
+    min-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.top-items {
+    margin-right: 15px;
+}
+
+.top-items:hover {
+    cursor: pointer;
+}
+a.top-items{
+    color: #222;
 }
