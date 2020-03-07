@@ -1,1 +1,40 @@
 /* Stylesheet for google-homepage */
+body{
+    font-family: arial, sans-serif;
+    color: #222;
+    font-size: small;
+}
+
+.logobox{
+    display: grid;
+    justify-content: center;
+}
+
+#logo{
+    padding-top: 109px;
+    justify-self: center;
+    width: 272px;
+    height: 92px; 
+}
+
+#formbox{
+    display: grid;
+    justify-content: center;
+    margin-top:30px;
+}
+
+#searchbar{
+    width: 482px;
+    height: 44px;
+    box-shadow: none;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+    z-index 3;
+    margin:0 auto;
+}
+#searchbar:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
